@@ -1,0 +1,47 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #121128;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    height: 90px !important;
+    z-index: 100;
+}
+
+.navbar .navbar-brand {
+    color: #e5ff00;
+    font-size: 4rem;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #e5ff00;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(204 255 0);
+    font-size: 26px;
+}
+
+@media (max-width:991px) {
+    .navbar-nav {
+        background-color: #41676c;
+        border-radius: 9%;
+    }
+}
+
+.animate__animated.animate__lightSpeedInLeft {
+    --animate-duration: 1.5s;
+}
+
+.animate__animated.animate__lightSpeedInRight {
+    --animate-duration: 1.5s;
+}
